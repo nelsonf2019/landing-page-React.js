@@ -1,0 +1,16 @@
+.home-page{
+    
+    width: 100%;
+    height: 100vh;/* va a ir 100% del elemento que lo contenga, lo dividen en 100 partes iguales Funciona sobre el tamañano completo de la pantalla view horizontal*/
+    box-sizing: border-box; /*siempre va a mantener el ancho ya se al margen o 
+    el padding se van adaptar a ese tamaño Que los elementos tengan el tamaño que les estoy diciendo
+    y que no se desborden de eso siempre va a mantener el ancho y los demas atributos ya se ael margen
+    o el padding se van adaptar a ese tamapño y asi nunca lo van a superar*/
+    background-image: url(./img/fondo.png);
+    background-repeat: no-repeat; /*para que no se repita la imagen */
+    background-position: center; /*Para centrar la imagen */
+    background-size: cover; /*Para que la imagen se adapte al tamaño total de la pantalla*/
+    background-color: #ffff;
+
+
+}

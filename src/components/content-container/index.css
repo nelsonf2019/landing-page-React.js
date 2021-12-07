@@ -1,0 +1,13 @@
+.content-container{
+
+    width: 950px; 
+    margin: 0 auto; /*Para  centrar el componente*/
+    vertical-align: middle;/*Va llevar al centro el elemento*/
+    position: relative;
+    top: 185px; /*Para que no quede tan pegado*/
+
+}
+
+.content-container--title {
+    padding: 0 170px;
+}
